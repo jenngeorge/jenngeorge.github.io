@@ -22478,11 +22478,7 @@ var App = function (_Component) {
             Link,
             { className: 'logo',
               onClick: this.updateSection.bind(this, 'about'), to: 'about', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
-            _react2.default.createElement(
-              'h1',
-              { className: 'logo' },
-              ' JG '
-            )
+            'JG'
           ),
           _react2.default.createElement(
             _reactScrollspy2.default,
@@ -23743,9 +23739,41 @@ var About = function About() {
     "div",
     { className: "about-container" },
     _react2.default.createElement(
-      "h1",
-      null,
-      " About "
+      "section",
+      { className: "section-content" },
+      _react2.default.createElement(
+        "section",
+        { className: "about-content" },
+        _react2.default.createElement("img", { className: "about-image", src: "assets/pjelly.png", alt: "about-image" }),
+        _react2.default.createElement(
+          "section",
+          { className: "about-info" },
+          _react2.default.createElement(
+            "h1",
+            null,
+            "Hello! I'm Jenn"
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "I'm a full stack developer based in NYC. I like coffee, octopusses, and jello. Please hire me."
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "social-links" },
+            _react2.default.createElement(
+              "a",
+              { href: "github.com" },
+              " github "
+            ),
+            _react2.default.createElement(
+              "a",
+              { href: "linkedin.com" },
+              " linkedin "
+            )
+          )
+        )
+      )
     )
   );
 };

@@ -11,29 +11,38 @@
 
 .logo{
   float: left;
-  background-color: white;
+  margin-left: 20px;
   height: 60px;
   width: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .nav ul{
   float: right;
-  background-color: white;
+  margin-right: 20px;
 }
 
 .nav-item {
   padding: 0 40px;
-  display: inline-block;
   height: 60px;
-}
-
-.nav-item h2 {
-  height: 60px;
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .selected {
-  background-color: red;
+  color: white;
+  border-bottom: 4px solid white;
 }
 
-.content-wrapper {
+.section-content {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 900px;
 }

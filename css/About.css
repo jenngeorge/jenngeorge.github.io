@@ -2,3 +2,34 @@
   background-color: pink;
   height: 100vh;
 }
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+}
+
+.about-info {
+  margin-top: 60px;
+  width: 300px;
+}
+
+.about-info h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.social-links {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+}
+
+.social-links a:hover {
+  color: purple;
+}
