@@ -27,23 +27,24 @@ class App extends Component {
     return (
       <div className="app-container">
         <div className="nav">
-          <h1 className="logo"> JG </h1>
-          <ul className="nav-list">
-            <Scrollspy items={['about', 'projects', 'contact']} currentClassName='selected' offset={-10}>
+          <Link className="logo"
+            onClick={this.updateSection.bind(this, 'about')} to='about' offset={0} duration={500} smooth={true} delay={50} spy={true}>
+            <h1 className="logo"> JG </h1>
+          </Link>
+            <Scrollspy items={['about', 'projects', 'contact']} currentClassName='selected' offset={0}>
               <Link className='nav-item'
-                onClick={this.updateSection.bind(this, 'about')} to='about' offset={-10} duration={500} smooth={true} delay={50} spy={true}>
+                onClick={this.updateSection.bind(this, 'about')} to='about' offset={0} duration={500} smooth={true} delay={50} spy={true}>
                 About
               </Link>
               <Link className='nav-item'
-                onClick={this.updateSection.bind(this, 'projects')} to='projects' offset={-10} duration={500} smooth={true} delay={50} spy={true}>
+                onClick={this.updateSection.bind(this, 'projects')} to='projects' offset={0} duration={500} smooth={true} delay={50} spy={true}>
                 Projects
               </Link>
               <Link className='nav-item'
-                onClick={this.updateSection.bind(this, 'contact')} to='contact' offset={-10} duration={500} smooth={true} delay={50} spy={true}>
+                onClick={this.updateSection.bind(this, 'contact')} to='contact' offset={0} duration={500} smooth={true} delay={50} spy={true}>
                 Contact
               </Link>
             </Scrollspy>
-          </ul>
         </div>
 
         <div className='content-wrapper'>

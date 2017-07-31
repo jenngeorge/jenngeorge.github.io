@@ -22475,34 +22475,35 @@ var App = function (_Component) {
           'div',
           { className: 'nav' },
           _react2.default.createElement(
-            'h1',
-            { className: 'logo' },
-            ' JG '
+            Link,
+            { className: 'logo',
+              onClick: this.updateSection.bind(this, 'about'), to: 'about', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
+            _react2.default.createElement(
+              'h1',
+              { className: 'logo' },
+              ' JG '
+            )
           ),
           _react2.default.createElement(
-            'ul',
-            { className: 'nav-list' },
+            _reactScrollspy2.default,
+            { items: ['about', 'projects', 'contact'], currentClassName: 'selected', offset: 0 },
             _react2.default.createElement(
-              _reactScrollspy2.default,
-              { items: ['about', 'projects', 'contact'], currentClassName: 'selected', offset: -10 },
-              _react2.default.createElement(
-                Link,
-                { className: 'nav-item',
-                  onClick: this.updateSection.bind(this, 'about'), to: 'about', offset: -10, duration: 500, smooth: true, delay: 50, spy: true },
-                'About'
-              ),
-              _react2.default.createElement(
-                Link,
-                { className: 'nav-item',
-                  onClick: this.updateSection.bind(this, 'projects'), to: 'projects', offset: -10, duration: 500, smooth: true, delay: 50, spy: true },
-                'Projects'
-              ),
-              _react2.default.createElement(
-                Link,
-                { className: 'nav-item',
-                  onClick: this.updateSection.bind(this, 'contact'), to: 'contact', offset: -10, duration: 500, smooth: true, delay: 50, spy: true },
-                'Contact'
-              )
+              Link,
+              { className: 'nav-item',
+                onClick: this.updateSection.bind(this, 'about'), to: 'about', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
+              'About'
+            ),
+            _react2.default.createElement(
+              Link,
+              { className: 'nav-item',
+                onClick: this.updateSection.bind(this, 'projects'), to: 'projects', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
+              'Projects'
+            ),
+            _react2.default.createElement(
+              Link,
+              { className: 'nav-item',
+                onClick: this.updateSection.bind(this, 'contact'), to: 'contact', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
+              'Contact'
             )
           )
         ),

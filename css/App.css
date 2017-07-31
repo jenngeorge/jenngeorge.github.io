@@ -1,3 +1,4 @@
+@import 'reset.css';
 @import './About.css';
 @import './Projects.css';
 @import './Contact.css';
@@ -5,9 +6,34 @@
 .nav {
   position: fixed;
   top: 0;
+  width: 100%;
+}
+
+.logo{
+  float: left;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+}
+
+.nav ul{
+  float: right;
+  background-color: white;
+}
+
+.nav-item {
+  padding: 0 40px;
+  display: inline-block;
+  height: 60px;
+}
+
+.nav-item h2 {
   height: 60px;
 }
 
 .selected {
   background-color: red;
+}
+
+.content-wrapper {
 }
