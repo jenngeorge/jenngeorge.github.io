@@ -1,0 +1,13 @@
+@import './About.css';
+@import './Projects.css';
+@import './Contact.css';
+
+.nav {
+  position: fixed;
+  top: 0;
+  height: 60px;
+}
+
+.selected {
+  background-color: red;
+}
