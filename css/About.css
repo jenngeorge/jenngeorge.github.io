@@ -1,11 +1,12 @@
 .about-container {
-  background-color: pink;
-  height: 100vh;
+  background-color: #DB2763;
+  min-height: 100vh;
 }
 
 .about-content {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .about-image {

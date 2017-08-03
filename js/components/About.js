@@ -16,6 +16,7 @@ const About = () => {
             <div className="social-links">
               <a href="github.com"> github </a>
               <a href="linkedin.com"> linkedin </a>
+              <a href="resume-link"> resume </a>
             </div>
           </section>
         </section>

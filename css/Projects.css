@@ -1,4 +1,44 @@
 .projects-container{
-  background-color: green;
-  height: 100vh;
+  background-color: #A2D729;
+  min-height: 100vh;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 475px;
+  height: 400px;
+  background-color: #F1F7ED;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.project-card-secondary {
+  width: 300px;
+  height: 100px;
+  background-color: #F1F7ED;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.project-image {
+  height: 200px;
+}
+
+.project-card-secondary .project-image {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.projects-container a {
+  color: blue;
+}
+
+.projects-container a:hover {
+  color: purple;
 }
