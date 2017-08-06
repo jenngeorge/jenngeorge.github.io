@@ -1,5 +1,6 @@
 .projects-container{
-  background-color: #A2D729;
+  /*background-color: #A2D729;*/
+  background-color: #1FAD69;
   min-height: 100vh;
 }
 
@@ -12,7 +13,7 @@
 .project-card {
   width: 475px;
   height: 400px;
-  background-color: #F1F7ED;
+  background-color: white;
   border-radius: 5px;
   margin-bottom: 50px;
 }
@@ -20,7 +21,7 @@
 .project-card-secondary {
   width: 300px;
   height: 100px;
-  background-color: #F1F7ED;
+  background-color: white;
   border-radius: 5px;
   margin-bottom: 50px;
 }

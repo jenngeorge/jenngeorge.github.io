@@ -5,13 +5,17 @@ const About = () => {
     <div className="about-container">
       <section className="section-content">
         <section className="about-content">
-          <img className="about-image" src="assets/pjelly.png" alt="about-image"/>
+          <img className="about-image" src="assets/face.jpg" alt="about-image"/>
           <section className="about-info">
-            <h1>Hello! I'm Jenn</h1>
+            <h1>Hello!</h1>
             <p>
-              I'm a full stack developer based in NYC.
-              I like coffee, octopusses, and jello.
-              Please hire me.
+              I'm Jenn Georgevich, a software developer living in NYC.
+            </p>
+            <p>
+              I recently taught full stack web development (Javascript,
+              React/Redux, Ruby/Rails, CSS/HTML, SQL)
+              at <a href="https://www.appacademy.io/">App Academy</a>, a
+              top programming bootcamp in San Francisco.
             </p>
             <div className="social-links">
               <a href="github.com"> github </a>

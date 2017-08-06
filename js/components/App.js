@@ -29,7 +29,7 @@ class App extends Component {
         <div className="nav">
           <Link className="logo"
             onClick={this.updateSection.bind(this, 'about')} to='about' offset={0} duration={500} smooth={true} delay={50} spy={true}>
-            JG
+            JennGeorge
           </Link>
             <Scrollspy items={['about', 'projects', 'contact']} currentClassName='selected' offset={0}>
               <Link className='nav-item'

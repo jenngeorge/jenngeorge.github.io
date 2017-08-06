@@ -11911,7 +11911,7 @@ var App = function (_Component) {
             Link,
             { className: 'logo',
               onClick: this.updateSection.bind(this, 'about'), to: 'about', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
-            'JG'
+            'JennGeorge'
           ),
           _react2.default.createElement(
             _reactScrollspy2.default,
@@ -11991,19 +11991,30 @@ var About = function About() {
       _react2.default.createElement(
         "section",
         { className: "about-content" },
-        _react2.default.createElement("img", { className: "about-image", src: "assets/pjelly.png", alt: "about-image" }),
+        _react2.default.createElement("img", { className: "about-image", src: "assets/face.jpg", alt: "about-image" }),
         _react2.default.createElement(
           "section",
           { className: "about-info" },
           _react2.default.createElement(
             "h1",
             null,
-            "Hello! I'm Jenn"
+            "Hello!"
           ),
           _react2.default.createElement(
             "p",
             null,
-            "I'm a full stack developer based in NYC. I like coffee, octopusses, and jello. Please hire me."
+            "I'm Jenn Georgevich, a software developer living in NYC."
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "I recently taught full stack web development (Javascript, React/Redux, Ruby/Rails, CSS/HTML, SQL) at ",
+            _react2.default.createElement(
+              "a",
+              { href: "https://www.appacademy.io/" },
+              "App Academy"
+            ),
+            ", a top programming bootcamp in San Francisco."
           ),
           _react2.default.createElement(
             "div",

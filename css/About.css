@@ -6,31 +6,55 @@
 .about-content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+  margin-top: 60px;
 }
 
 .about-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  border: 15px solid white;
+  border-radius: 50%;
+  margin-bottom: 60px;
+
+  /*prevent background color leak */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 
 .about-info {
-  margin-top: 60px;
-  width: 300px;
+  min-width: 400px;
+  max-width: 600px;
+  padding: 40px 60px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .about-info h1 {
-  font-size: 30px;
-  text-align: center;
+  text-align: left;
+  color: #1FAD69;
+  font-size: 60px;
+  font-family: 'Lobster';
 }
 
 .social-links {
   margin: 20px;
   display: flex;
   justify-content: space-around;
-  color: blue;
 }
 
-.social-links a:hover {
-  color: purple;
+.about-container a {
+  color: #F8602C;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.about-container a:hover {
+  color: #1FAD69;
+}
+
+.about-container p {
+  margin-top: 20px;
 }
