@@ -12127,7 +12127,8 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "section",
           { className: "project-card" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/pjelly.png" }),
+          _react2.default.createElement("img", { className: "project-image", src: "assets/braintrain.png",
+            "alt-text": "screenshot of braintra.in web app" }),
           "Brain Train",
           _react2.default.createElement(
             "p",
@@ -12158,7 +12159,8 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "section",
           { className: "project-card" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/pjelly.png" }),
+          _react2.default.createElement("img", { className: "project-image", src: "assets/meetup-map.png",
+            "alt-text": "screenshot of meetup map web app" }),
           _react2.default.createElement(
             "p",
             null,
@@ -12183,22 +12185,24 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "section",
           { className: "project-card-secondary" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/pjelly.png" }),
+          _react2.default.createElement("img", { className: "project-image", src: "assets/react-demo.png",
+            "alt-text": "screenshot of a coding demo on youtube" }),
           _react2.default.createElement(
             "p",
             null,
-            "Watch my React Meetup lecture and live coding demo on youtube. I represented App Academy at a React Meetup in San Francisco."
+            "Watch my live coding demo (beginning 16:40) for an \"Intro to React\" lecture on youtube. I represented App Academy at a React Meetup in San Francisco."
           ),
           _react2.default.createElement(
             "a",
-            { href: "github-link" },
+            { href: "https://youtu.be/kEerYTkwJAo?t=16m40s" },
             "Youtube link "
           )
         ),
         _react2.default.createElement(
           "section",
           { className: "project-card-secondary" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/pjelly.png" }),
+          _react2.default.createElement("img", { className: "project-image", src: "assets/aa-logo.png",
+            "alt-text": "app academy logo" }),
           _react2.default.createElement(
             "p",
             null,
@@ -12218,7 +12222,8 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "section",
           { className: "project-card-secondary" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/pjelly.png" }),
+          _react2.default.createElement("img", { className: "project-image", src: "assets/yo-logo.png",
+            "alt-text": "yo logo" }),
           _react2.default.createElement(
             "p",
             null,
