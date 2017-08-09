@@ -11911,7 +11911,7 @@ var App = function (_Component) {
             Link,
             { className: 'logo',
               onClick: this.updateSection.bind(this, 'about'), to: 'about', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
-            'JennGeorge'
+            'JennGeorgevich'
           ),
           _react2.default.createElement(
             _reactScrollspy2.default,
@@ -11932,7 +11932,7 @@ var App = function (_Component) {
               Link,
               { className: 'nav-item',
                 onClick: this.updateSection.bind(this, 'contact'), to: 'contact', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
-              'Contact'
+              'Resume'
             )
           )
         ),
@@ -12011,7 +12011,7 @@ var About = function About() {
             "I recently taught full stack web development (Javascript, React/Redux, Ruby/Rails, CSS/HTML, SQL) at ",
             _react2.default.createElement(
               "a",
-              { href: "https://www.appacademy.io/" },
+              { target: "_blank", href: "https://www.appacademy.io/" },
               "App Academy"
             ),
             ", a top programming bootcamp in San Francisco."
@@ -12021,18 +12021,18 @@ var About = function About() {
             { className: "social-links" },
             _react2.default.createElement(
               "a",
-              { href: "github.com" },
+              { target: "_blank", href: "https://github.com/jenngeorge" },
               " github "
             ),
             _react2.default.createElement(
               "a",
-              { href: "linkedin.com" },
+              { target: "_blank", href: "https://www.linkedin.com/in/jenngeorgevich/" },
               " linkedin "
             ),
             _react2.default.createElement(
               "a",
-              { href: "resume-link" },
-              " resume "
+              { href: "mailto:jenngeorgevich@gmail.com" },
+              "email"
             )
           )
         )
@@ -12071,25 +12071,46 @@ var Contact = function Contact() {
         "section",
         { className: "contact-content" },
         _react2.default.createElement(
-          "h1",
-          null,
-          " Contact me "
+          "section",
+          { className: "contact-info" },
+          _react2.default.createElement(
+            "h1",
+            null,
+            " Contact me "
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "I'm always interested in learning about new ideas and opportunities."
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "Don't be shy! Send me an ",
+            _react2.default.createElement(
+              "a",
+              { href: "mailto:jenngeorgevich@gmail.com" },
+              " email "
+            ),
+            "or",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "https://www.linkedin.com/in/jenngeorgevich/" },
+              " linkedin "
+            ),
+            "message."
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            _react2.default.createElement(
+              "a",
+              { href: "./assets/jenngeorgevich_resume.pdf", download: true },
+              "Click here to download my resume as a pdf"
+            )
+          )
         ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Always interested in new ideas and opportunities"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Send me an email, add me on LinkedIn, or play this game I made for you."
-        ),
-        _react2.default.createElement(
-          "div",
-          null,
-          "a delightful game here"
-        )
+        _react2.default.createElement("embed", { className: "resume", src: "./assets/jenngeorgevich_resume.pdf" })
       )
     )
   );
@@ -12128,127 +12149,118 @@ var Projects = function Projects() {
           "section",
           { className: "project-card" },
           _react2.default.createElement("img", { className: "project-image", src: "assets/braintrain.png",
-            "alt-text": "screenshot of braintra.in web app" }),
-          "Brain Train",
+            alt: "screenshot of braintra.in web app" }),
           _react2.default.createElement(
             "p",
             null,
             _react2.default.createElement(
               "a",
-              { href: "braintrain-link" },
+              { target: "_blank", href: "braintrain-link" },
               "BrainTrain"
             ),
-            " is a flash card app that allows users to score and track their learning progress."
-          ),
-          _react2.default.createElement(
-            "p",
-            null,
-            " React / Ruby on Rails "
+            " is a flash card creation and discovery app that allows users to score and track their learning progress. (React / Ruby on Rails / Postgres)"
           ),
           _react2.default.createElement(
             "a",
-            { href: "github-link" },
+            { target: "_blank", href: "github-link" },
             "github "
           ),
           _react2.default.createElement(
             "a",
-            { href: "live-link" },
-            "live"
+            { target: "_blank", href: "live-link" },
+            "live link"
           )
         ),
         _react2.default.createElement(
           "section",
           { className: "project-card" },
           _react2.default.createElement("img", { className: "project-image", src: "assets/meetup-map.png",
-            "alt-text": "screenshot of meetup map web app" }),
+            alt: "screenshot of meetup map web app" }),
           _react2.default.createElement(
             "p",
             null,
-            "Why doesn't meetup.com have map search? Meetup Map allows users to search for local meetup events by map view and text."
-          ),
-          _react2.default.createElement(
-            "p",
-            null,
-            " React / Meetup API / Google Maps "
+            "Why doesn't meetup.com have map search? Meetup Map helps users find local meetup events by displaying them on a map. Users can query for events via map location or text. (React / Meetup API / Google Maps)"
           ),
           _react2.default.createElement(
             "a",
-            { href: "github-link" },
+            { target: "_blank", href: "github-link" },
             "github "
           ),
           _react2.default.createElement(
             "a",
-            { href: "live-link" },
-            "live"
+            { target: "_blank", href: "live-link" },
+            "live link"
           )
         ),
         _react2.default.createElement(
           "section",
           { className: "project-card-secondary" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/react-demo.png",
-            "alt-text": "screenshot of a coding demo on youtube" }),
           _react2.default.createElement(
-            "p",
-            null,
-            "Watch my live coding demo (beginning 16:40) for an \"Intro to React\" lecture on youtube. I represented App Academy at a React Meetup in San Francisco."
-          ),
-          _react2.default.createElement(
-            "a",
-            { href: "https://youtu.be/kEerYTkwJAo?t=16m40s" },
-            "Youtube link "
-          )
-        ),
-        _react2.default.createElement(
-          "section",
-          { className: "project-card-secondary" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/aa-logo.png",
-            "alt-text": "app academy logo" }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "I created the Diversity and Inclusion page at App Academy and improved internal student tracking tools"
+            "div",
+            { id: "react-img-container" },
+            _react2.default.createElement("img", { className: "project-image", src: "assets/react-demo.png",
+              alt: "screenshot of a coding demo on youtube" })
           ),
           _react2.default.createElement(
             "p",
             null,
-            " React / Ruby on Rails / CSS "
-          ),
-          _react2.default.createElement(
-            "a",
-            { href: "github-link" },
-            "live "
-          )
-        ),
-        _react2.default.createElement(
-          "section",
-          { className: "project-card-secondary" },
-          _react2.default.createElement("img", { className: "project-image", src: "assets/yo-logo.png",
-            "alt-text": "yo logo" }),
-          _react2.default.createElement(
-            "p",
-            null,
-            "I contributed UI design and development to the",
+            "Watch my ",
             _react2.default.createElement(
               "a",
-              { href: "YoPolls-link" },
-              "YoPolls"
+              { target: "_blank",
+                href: "https://youtu.be/kEerYTkwJAo?t=16m40s" },
+              "\"Intro to React\" live coding demo (beginning 16:40) on youtube."
             ),
-            "web dashboard"
+            " I represented App Academy at a React Meetup in San Francisco."
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "project-card-secondary" },
+          _react2.default.createElement(
+            "div",
+            { id: "aa-img-container" },
+            _react2.default.createElement("img", { className: "project-image", src: "assets/aa-logo.png",
+              alt: "app academy logo" })
           ),
           _react2.default.createElement(
             "p",
             null,
-            " flask / HTML / CSS "
+            "I designed and developed the ",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank",
+                href: "https://www.appacademy.io/diversity" },
+              "Diversity and Inclusion page"
+            ),
+            " on App Academy's public site and improved internal student tracking tools."
+          )
+        ),
+        _react2.default.createElement(
+          "section",
+          { className: "project-card-secondary" },
+          _react2.default.createElement(
+            "div",
+            { id: "yo-img-container" },
+            _react2.default.createElement("img", { className: "project-image", src: "assets/yo-logo.png",
+              alt: "yo logo" })
           ),
           _react2.default.createElement(
-            "a",
-            { href: "github-link" },
-            "live "
-          ),
-          _react2.default.createElement(
-            "a",
-            { href: "product-hunt-link" },
-            "product hunt"
+            "p",
+            null,
+            "I contributed UI design and development to the ",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank",
+                href: "http://polls.justyo.co/" },
+              "YoPolls "
+            ),
+            "web dashboard. Check out the app on ",
+            _react2.default.createElement(
+              "a",
+              { href: "https://www.producthunt.com/posts/yo-polls" },
+              "Product Hunt here."
+            )
           )
         )
       )

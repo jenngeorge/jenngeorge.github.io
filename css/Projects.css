@@ -15,14 +15,14 @@
   height: 400px;
   background-color: white;
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 20px;
   border-radius: 5px;
 }
 
 .project-card-secondary {
   width: 300px;
-  height: 200px;
+  height: 225px;
   background-color: white;
   border-radius: 5px;
   margin-bottom: 50px;
@@ -37,16 +37,38 @@
 .project-card-secondary .project-image {
   height: 100px;
   width: auto;
-  float: left;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-
+  margin: 0 auto;
 }
 
 .projects-container a {
-  color: blue;
+  color: #DB2763;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .projects-container a:hover {
-  color: purple;
+  color: #F8602C;
+}
+
+.projects-container p {
+  margin: 20px;
+  font-size: 14px;
+}
+
+#react-img-container {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
+}
+
+#aa-img-container {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ff0000;
+}
+
+#yo-img-container {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #9a59b5;
 }
