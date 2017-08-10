@@ -9,26 +9,33 @@ const Projects = () => {
             <img className="project-image" src="assets/braintrain.png"
             alt="screenshot of braintra.in web app"/>
             <p>
-              <a target="_blank" href="braintrain-link">
+              <a target="_blank" href="http://www.braintra.in/">
                 BrainTrain
               </a> is a flash card
               creation and discovery app that allows users to score and
               track their learning progress. (React / Ruby on Rails / Postgres)
             </p>
-            <a target="_blank" href="github-link">github </a>
-            <a target="_blank" href="live-link">live link</a>
+            <div className="project-links">
+              <a target="_blank" href="https://github.com/jenngeorge/brain-train">github </a>
+              /
+              <a target="_blank" href="http://www.braintra.in/"> live link</a>
+            </div>
           </section>
           <section className="project-card">
             <img className="project-image" src="assets/meetup-map.png"
             alt="screenshot of meetup map web app"/>
               <p>
-                Why doesn't meetup.com have map search? Meetup Map
+                <a target="_blank"
+                href="https://meetup-react.herokuapp.com/">Meetup Map </a>
                 helps users find local meetup events by
                 displaying them on a map. Users can query for events
                 via map location or text. (React / Meetup API / Google Maps)
               </p>
-              <a target="_blank" href="github-link">github </a>
-              <a target="_blank" href="live-link">live link</a>
+              <div className="project-links">
+                <a target="_blank" href="https://github.com/jenngeorge/meetup-react">github </a>
+                /
+                <a target="_blank" href="https://meetup-react.herokuapp.com/"> live link</a>
+              </div>
           </section>
           <section className="project-card-secondary">
             <div id="react-img-container">
@@ -65,7 +72,7 @@ const Projects = () => {
               <p>
                 I contributed UI design and development to the <a target="_blank"
                 href="http://polls.justyo.co/">YoPolls </a>
-                web dashboard. Check out the app on <a href="https://www.producthunt.com/posts/yo-polls">
+                web dashboard. Check out the app on <a target="_blank" href="https://www.producthunt.com/posts/yo-polls">
                   Product Hunt here.
                 </a>
               </p>

@@ -12159,20 +12159,25 @@ var Projects = function Projects() {
             null,
             _react2.default.createElement(
               "a",
-              { target: "_blank", href: "braintrain-link" },
+              { target: "_blank", href: "http://www.braintra.in/" },
               "BrainTrain"
             ),
             " is a flash card creation and discovery app that allows users to score and track their learning progress. (React / Ruby on Rails / Postgres)"
           ),
           _react2.default.createElement(
-            "a",
-            { target: "_blank", href: "github-link" },
-            "github "
-          ),
-          _react2.default.createElement(
-            "a",
-            { target: "_blank", href: "live-link" },
-            "live link"
+            "div",
+            { className: "project-links" },
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "https://github.com/jenngeorge/brain-train" },
+              "github "
+            ),
+            "/",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "http://www.braintra.in/" },
+              " live link"
+            )
           )
         ),
         _react2.default.createElement(
@@ -12183,17 +12188,28 @@ var Projects = function Projects() {
           _react2.default.createElement(
             "p",
             null,
-            "Why doesn't meetup.com have map search? Meetup Map helps users find local meetup events by displaying them on a map. Users can query for events via map location or text. (React / Meetup API / Google Maps)"
+            _react2.default.createElement(
+              "a",
+              { target: "_blank",
+                href: "https://meetup-react.herokuapp.com/" },
+              "Meetup Map "
+            ),
+            "helps users find local meetup events by displaying them on a map. Users can query for events via map location or text. (React / Meetup API / Google Maps)"
           ),
           _react2.default.createElement(
-            "a",
-            { target: "_blank", href: "github-link" },
-            "github "
-          ),
-          _react2.default.createElement(
-            "a",
-            { target: "_blank", href: "live-link" },
-            "live link"
+            "div",
+            { className: "project-links" },
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "https://github.com/jenngeorge/meetup-react" },
+              "github "
+            ),
+            "/",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "https://meetup-react.herokuapp.com/" },
+              " live link"
+            )
           )
         ),
         _react2.default.createElement(
@@ -12262,7 +12278,7 @@ var Projects = function Projects() {
             "web dashboard. Check out the app on ",
             _react2.default.createElement(
               "a",
-              { href: "https://www.producthunt.com/posts/yo-polls" },
+              { target: "_blank", href: "https://www.producthunt.com/posts/yo-polls" },
               "Product Hunt here."
             )
           )

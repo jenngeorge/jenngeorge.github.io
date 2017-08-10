@@ -55,6 +55,10 @@
   font-size: 14px;
 }
 
+.project-links {
+  text-align: right;
+}
+
 #react-img-container {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
