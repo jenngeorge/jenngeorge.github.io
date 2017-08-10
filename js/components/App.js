@@ -42,7 +42,7 @@ class App extends Component {
               </Link>
               <Link className='nav-item'
                 onClick={this.updateSection.bind(this, 'contact')} to='contact' offset={0} duration={500} smooth={true} delay={50} spy={true}>
-                Resume
+                Contact
               </Link>
             </Scrollspy>
         </div>

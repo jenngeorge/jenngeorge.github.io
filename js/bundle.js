@@ -11932,7 +11932,7 @@ var App = function (_Component) {
               Link,
               { className: 'nav-item',
                 onClick: this.updateSection.bind(this, 'contact'), to: 'contact', offset: 0, duration: 500, smooth: true, delay: 50, spy: true },
-              'Resume'
+              'Contact'
             )
           )
         ),
@@ -12090,15 +12090,20 @@ var Contact = function Contact() {
             _react2.default.createElement(
               "a",
               { href: "mailto:jenngeorgevich@gmail.com" },
-              " email "
+              " email, "
             ),
-            "or",
+            " add me on",
             _react2.default.createElement(
               "a",
               { target: "_blank", href: "https://www.linkedin.com/in/jenngeorgevich/" },
-              " linkedin "
+              " linkedin, "
             ),
-            "message."
+            "or follow me on ",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "https://twitter.com/jenngeorge_" },
+              "twitter."
+            )
           ),
           _react2.default.createElement(
             "p",
@@ -12109,8 +12114,7 @@ var Contact = function Contact() {
               "Click here to download my resume as a pdf"
             )
           )
-        ),
-        _react2.default.createElement("embed", { className: "resume", src: "./assets/jenngeorgevich_resume.pdf" })
+        )
       )
     )
   );
