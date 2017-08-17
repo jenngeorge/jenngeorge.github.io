@@ -23,6 +23,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.logo:hover {
+  border-bottom: 4px dashed white;
+}
+
 .nav ul{
   float: right;
   margin-right: 20px;
@@ -41,8 +45,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.nav-item:hover {
+  border-bottom: 4px dashed white;
+}
+
 .selected {
-  color: white;
   border-bottom: 4px solid white;
 }
 
