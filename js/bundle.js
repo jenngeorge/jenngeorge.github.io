@@ -11991,7 +11991,11 @@ var About = function About() {
       _react2.default.createElement(
         "section",
         { className: "about-content" },
-        _react2.default.createElement("img", { className: "about-image", src: "assets/face.jpg", alt: "about-image" }),
+        _react2.default.createElement("img", {
+          className: "about-image",
+          src: "assets/face.jpg",
+          alt: "about-image"
+        }),
         _react2.default.createElement(
           "section",
           { className: "about-info" },
@@ -12003,12 +12007,21 @@ var About = function About() {
           _react2.default.createElement(
             "p",
             null,
-            "I'm Jenn Georgevich, a software developer living in NYC."
+            "I'm",
+            " Jenn Georgevich, a software developer living in NYC and currently freelancing ",
+            "with ",
+            _react2.default.createElement(
+              "a",
+              { target: "_blank", href: "http://www.codeandtheory.com/" },
+              "Code and Theory"
+            ),
+            "."
           ),
           _react2.default.createElement(
             "p",
             null,
-            "I recently taught full stack web development (Javascript, React/Redux, Ruby/Rails, CSS/HTML, SQL) at ",
+            "Before that, I taught full stack web development (Javascript, React/Redux, Ruby/Rails, CSS/HTML, SQL) ",
+            "at ",
             _react2.default.createElement(
               "a",
               { target: "_blank", href: "https://www.appacademy.io/" },
@@ -12022,12 +12035,19 @@ var About = function About() {
             _react2.default.createElement(
               "a",
               { target: "_blank", href: "https://github.com/jenngeorge" },
-              " github "
+              " ",
+              "github",
+              " "
             ),
             _react2.default.createElement(
               "a",
-              { target: "_blank", href: "https://www.linkedin.com/in/jenngeorgevich/" },
-              " linkedin "
+              {
+                target: "_blank",
+                href: "https://www.linkedin.com/in/jenngeorgevich/"
+              },
+              " ",
+              "linkedin",
+              " "
             ),
             _react2.default.createElement(
               "a",
